@@ -526,7 +526,6 @@ class App extends React.Component {
       <div className="App">
         <p>Jeremy Rogel: Conway's Game of Life</p>
         <nav>
-          <a href='https://github.com/jbasile6/Conways-Life/blob/master/objectives/rules-game-life'>Game Rules</a>
           <a href='#info'>Info Section</a>
         </nav>
 
