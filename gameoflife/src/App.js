@@ -187,7 +187,7 @@ class App extends React.Component {
           }
         }
         // apply life/death rules based on neighbor count
-        
+
         //life
         //cell is dead and has 3 neighbors it comes to life
         if (this.state.currentGrid[y][x].isAlive === false && liveNeighbors === 3) {
@@ -525,7 +525,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <p>Jeremy Rogel: Conway's Game of Life</p>
+        <h1>Jeremy Rogel: Conway's Game of Life</h1>
         <nav>
           <a href='https://github.com/jeremyRogel/GameOfLife/tree/master/objectives/rules-game-life'>Game Rules</a>
           <a href='#info'>Info Section</a>
